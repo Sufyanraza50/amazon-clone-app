@@ -29,6 +29,45 @@ export const Home = () => {
                     image="https://i.ibb.co/M2PQy0m/81jg-Ci-NJPUL.jpg" 
                 />
             </div>
+            <div className="home__row">
+                <Product 
+                    id="121314"
+                    title="The Lean Startup: How contant innovation"
+                    price={11.96}
+                    rating={4}
+                    image="https://i.ibb.co/M2PQy0m/81jg-Ci-NJPUL.jpg" 
+                />
+                <Product 
+                    id="121314"
+                    title="The Lean Startup: How contant innovation"
+                    price={15.44}
+                    rating={5}
+                    image="https://i.ibb.co/M2PQy0m/81jg-Ci-NJPUL.jpg" 
+                />
+                <Product 
+                    id="121314"
+                    title="The Lean Startup: How contant innovation"
+                    price={9.99}
+                    rating={3}
+                    image="https://i.ibb.co/M2PQy0m/81jg-Ci-NJPUL.jpg" 
+                />
+            </div>
+            <div className="home__row">
+            <Product 
+                    id="121314"
+                    title="The Lean Startup: How contant innovation"
+                    price={15.44}
+                    rating={5}
+                    image="https://i.ibb.co/M2PQy0m/81jg-Ci-NJPUL.jpg" 
+                />
+                <Product 
+                    id="121314"
+                    title="The Lean Startup: How contant innovation"
+                    price={9.99}
+                    rating={3}
+                    image="https://i.ibb.co/M2PQy0m/81jg-Ci-NJPUL.jpg" 
+                />
+            </div>
         </div>
     )
 }
