@@ -4,7 +4,9 @@ import Login from './components/Login';
 import Home from './components/Home';
 import Footer from './components/Footer';
 import Checkout from './components/Checkout';
+import NavLinks from './components/NavLinks';
 import './App.css';
+
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
           </Route>
           <Route path="/" >
             <Header />
+            <NavLinks />
             <Home />
             <Footer />
           </Route>
